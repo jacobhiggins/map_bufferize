@@ -1,0 +1,5 @@
+<launch>
+    <node name="map_bufferize_node" pkg="map_bufferize" type="map_bufferize_node" output="screen">
+        <param name="buffer_size" value="0.2" />
+    </node>
+</launch>
